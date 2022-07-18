@@ -1,6 +1,6 @@
 let nroUsuario = 0
 alert ('Ingresa un nro entre 0 y 99 y te dire si es mayor o menor a 50. Cuando desees dejar de ingresar números, para frenar la simulación ingresa un número negativo, en caso de que no desees ingresar ningún número, solo debes ingresar un número igual o superior a 100')
-nroUsuario = prompt ('Ingrese un nro')
+nroUsuario = prompt ('Ingrese un nr')
 while (nroUsuario < 0) {
     alert ('El número que intenta ingresar es menor a 0, para finalizar el programa de esta forma debe ingresar AL MENOS UN número dentro del intervalo mencionado. En caso de que no desee ingresar ninguno, finalice el programa ingresando un valor de 100 o superior')
     nroUsuario = prompt ('Ingrese un nro')
