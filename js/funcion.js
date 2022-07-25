@@ -36,7 +36,7 @@ if (eleccionTarj == 0) {
     while (eleccionCred != 0 && eleccionCred != 1) {
         eleccionTarj = prompt ('Ingreso una opción incorrecta. Ingrese 1 para denunciar su tarjeta de credito, Ingrese 0 para finalizar programa')
     }
-    if (eleccion == 1) {
+    if (eleccionCred == 1) {
         datos ()
     }
 }
