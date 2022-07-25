@@ -32,9 +32,9 @@ if (eleccionTarj == 1) {
     }
 }
 if (eleccionTarj == 0) {
-    eleccionCred == prompt ('Proseguimos con su tarjeta de credito, ingrese 1 para continuar, Ingrese 0 para finalizar simulación')
+    eleccionCred = prompt ('Proseguimos con su tarjeta de credito, ingrese 1 para continuar, Ingrese 0 para finalizar simulación')
     while (eleccionCred != 0 && eleccionCred != 1) {
-        eleccionTarj = prompt ('Ingreso una opción incorrecta. Ingrese 1 para denunciar su tarjeta de credito, Ingrese 0 para finalizar programa')
+        eleccionCred = prompt ('Ingreso una opción incorrecta. Ingrese 1 para denunciar su tarjeta de credito, Ingrese 0 para finalizar programa')
     }
     if (eleccionCred == 1) {
         datos ()
