@@ -40,4 +40,4 @@ if (eleccionTarj == 0) {
         datos ()
     }
 }
-alert ('Fin de la simulación');
+alert ('Fin de la simulación!');
